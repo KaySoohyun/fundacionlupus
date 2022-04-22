@@ -2,66 +2,66 @@
   {
     "name": "Sandra Vilches",
     "role": "Presidenta",
-    "photo": "../../../../assets/miembros/vilches.jpeg"
+    "photo": "assets/miembros/vilches.jpeg"
   },
   {
     "name": "Julieta Jemar",
     "role": "Secretaria",
-    "photo": "../../../../assets/miembros/jemar.jpeg"
+    "photo": "assets/miembros/jemar.jpeg"
   },
   {
     "name": "Jessica Ciriacci",
     "role": "Tesorera",
-    "photo": "../../../../assets/miembros/ciriacci.jpeg"
+    "photo": "assets/miembros/ciriacci.jpeg"
   },
   {
     "name": "Sofía Ciriacci",
     "role": "Vocal",
-    "photo": "../../../../assets/miembros/sciriacci.jpeg"
+    "photo": "assets/miembros/sciriacci.jpeg"
   },
   {
     "name": "Romina Medina",
     "role": "Vocal",
-    "photo": "../../../../assets/miembros/medina.jpeg"
+    "photo": "assets/miembros/medina.jpeg"
   },
   {
     "name": "Anabella Arguello",
     "role": "Vocal suplente",
-    "photo": "../../../../assets/miembros/arguello.png"
+    "photo": "assets/miembros/arguello.png"
   },
   {
     "name": "Jessica Gigena",
     "role": "Vocal suplente",
-    "photo": "../../../../assets/miembros/gigena.jpeg"
+    "photo": "assets/miembros/gigena.jpeg"
   },
   {
     "name": "Maria Sanchez",
     "role": "Recursos Humanos",
-    "photo": "../../../../assets/miembros/sanchez.png"
+    "photo": "assets/miembros/sanchez.png"
   },
   {
     "name": "Jessica Sandoval",
     "role": "Psicologa del espacio terapéutico",
-    "photo": "../../../../assets/miembros/sandoval.jpeg"
+    "photo": "assets/miembros/sandoval.jpeg"
   },
   {
     "name": "Gladys Micieli",
     "role": "Voluntaria",
-    "photo": "../../../../assets/miembros/micieli.jpeg"
+    "photo": "assets/miembros/micieli.jpeg"
   },
   {
     "name": "Carolina Ponce",
     "role": "Voluntaria",
-    "photo": "../../../../assets/miembros/ponce.jpeg"
+    "photo": "assets/miembros/ponce.jpeg"
   },
   {
     "name": "Mirta Suárez",
     "role": "Voluntaria",
-    "photo": "../../../../assets/miembros/suarez.jpeg"
+    "photo": "assets/miembros/suarez.jpeg"
   },
   {
     "name": "Julieta Wiesztort",
     "role": "Voluntaria",
-    "photo": "../../../../assets/miembros/wiesztort.jpg"
+    "photo": "assets/miembros/wiesztort.jpg"
   }
 ]
