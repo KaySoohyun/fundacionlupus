@@ -1,0 +1,22 @@
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col mb-20 w-full text-center">
+      <h1 class="mb-4 text-2xl font-medium tracking-widest text-gray-900 title-font">Nuestro equipo</h1>
+      <p class="mx-auto text-base leading-relaxed lg:w-2/3">
+        Sin importar las dificultades, nunca bajamos los brazos y seguimos trabajando.
+      </p>
+    </div>
+    <div class="flex flex-wrap justify-center -m-4">
+      <div class="p-4 lg:w-2/5" *ngFor="let miembro of team">
+        <div class="flex flex-col justify-center items-center h-full text-center sm:flex-row sm:justify-start sm:text-left">
+          <img alt="team" class="object-cover object-center flex-shrink-0 mb-4 w-48 h-48 rounded-lg sm:mb-0" src="{{miembro.photo}}">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="text-lg font-medium text-gray-900 title-font">{{miembro.name}}</h2>
+            <p class="mr-4 mb-6">{{miembro.role}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

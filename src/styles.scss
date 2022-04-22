@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwindcss/variants";
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Bree+Serif&family=M+PLUS+1p:wght@400;500&family=Martel&family=Patrick+Hand&display=swap');
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Martel', serif;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+.button-accent {
+  @apply inline-flex items-center px-3 py-1 mt-4 text-base text-violet-700 bg-violet-100 rounded border-0 focus:outline-none hover:bg-violet-200 md:mt-0;
+}
+
+.button-transparent {
+  @apply inline-flex items-center px-3 py-1 mt-4 text-base text-violet-700 bg-transparent rounded border-0 focus:outline-none hover:bg-violet-300 hover:text-white md:mt-0;
+}
