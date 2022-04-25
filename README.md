@@ -41,7 +41,7 @@ Before deploying, check firebase.json file. It must have this line: "site": "dev
 2. firebase deploy --only hosting:dev-fundacion
 
 ### For prod:
-1. ng deploy --base-href=https://fundacionlupus.com.ar/
+1. ng deploy --base-href=https://fundacionlupus.com.ar/ --cname=fundacionlupus.com.ar
 2. Add a CNAME file with "fundacionlupus.com.ar"
 3. Add a commit in "deploy" branch
 =
