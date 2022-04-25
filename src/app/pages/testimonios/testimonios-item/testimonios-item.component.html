@@ -1,0 +1,18 @@
+<section class="text-gray-600 body-font">
+
+  <div class="container flex flex-col justify-center items-center px-5 py-24 mx-auto">
+    <button class="self-start my-4 button-transparent" routerLink="/testimonios">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      </svg>
+      <span class="pl-4">Volver</span>
+    </button>
+    <img *ngIf="currentItem.photo" class="object-cover object-center mb-10 w-5/6 rounded lg:w-2/6 md:w-3/6" alt="hero" src="{{currentItem.photo}}">
+    <video *ngIf="currentItem.video" alt="testimonial" class="mb-10 w-full rounded-md" src="{{currentItem.video}}" controls ></video>
+    <div class="w-full text-center lg:w-2/3">
+      <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">La historia de {{currentItem.name}}</h1>
+      <p class="mb-8 leading-relaxed">{{currentItem.text}}</p>
+
+    </div>
+  </div>
+</section>

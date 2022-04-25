@@ -13,6 +13,7 @@ import { PublicComponent } from './pages/articles/public/public.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
+import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'sintomas', component: SympthomsComponent },
   { path: 'hospitales', component: HospitalsComponent },
   { path: 'testimonios', component: TestimoniosBoardComponent },
+  { path: 'testimonios/:id', component: TestimoniosItemComponent },
   { path: 'fundacion', component: FundacionComponent },
   { path: 'articulos', component: ArticlesBoardComponent },
   { path: 'salud-publica', component: PublicComponent },

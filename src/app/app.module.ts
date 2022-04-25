@@ -27,6 +27,7 @@ import { PublicComponent } from './pages/articles/public/public.component';
 import { IntroLupusComponent } from './pages/main/intro-lupus/intro-lupus.component';
 import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
+import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { LupusComponent } from './pages/articles/lupus/lupus.component';
     PublicComponent,
     IntroLupusComponent,
     MaratonComponent,
-    LupusComponent
+    LupusComponent,
+    TestimoniosItemComponent
   ],
   imports: [
     BrowserModule,
