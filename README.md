@@ -37,12 +37,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### For develop:
 Before deploying, check firebase.json file. It must have this line: "site": "dev-fundacion".
-1. ng deploy --base-href=https://dev-fundacion.web.app/ --cname=https://dev-fundacion.web.app/
 1. ng deploy --cname=https://dev-fundacion.web.app/
 2. firebase deploy --only hosting:dev-fundacion
 
 ### For prod:
-1. ng deploy --base-href=https://fundacionlupus.com.ar/
+1. ng deploy --cname=https://fundacionlupus.com.ar/
 2. Add a commit in "deploy" branch
 
 ## Other
