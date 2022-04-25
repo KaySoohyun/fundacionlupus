@@ -32,13 +32,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-Always change te base href on index before deploy
 
+## Deploy
 
-firebase deploy --only hosting:dev-fundacion
+### For develop:
+Before deploying, check firebase.json file. It must have this line: "site": "dev-fundacion".
+1. ng deploy --base-href=https://dev-fundacion.web.app/ --cname=https://dev-fundacion.web.app/
+1. ng deploy --cname=https://dev-fundacion.web.app/
+2. firebase deploy --only hosting:dev-fundacion
 
-Change with the correct for deploy to firebase
-"site": "fundacion-lupus",
-"site": "dev-fundacion",
+### For prod:
+1. ng deploy --base-href=https://fundacionlupus.com.ar/
+2. Add a commit in "deploy" branch
 
-Add a commit to deploy .com.ar
+## Other
+Before deploying, check firebase.json file. It must have this line: "site": "fundacion-lupus".
+1. ng deploy --base-href=https://fundacion-lupus.web.app/
+2. firebase deploy --only hosting:dev-fundacion
