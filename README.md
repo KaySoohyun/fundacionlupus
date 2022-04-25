@@ -32,5 +32,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+Always change te base href on index before deploy
+
 
 firebase deploy --only hosting:dev-fundacion
+
+Change with the correct for deploy to firebase
+"site": "fundacion-lupus",
+"site": "dev-fundacion",
+
+Add a commit to deploy .com.ar

@@ -5,7 +5,7 @@
   },
   "hosting": {
     "site": "fundacion-lupus",
-    "public": "dist/fundacion-lupus/",
+    "public": "docs",
     "ignore": [
       "firebase.json",
       "**/.*",
