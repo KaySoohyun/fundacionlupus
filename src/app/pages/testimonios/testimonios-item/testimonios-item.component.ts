@@ -10,6 +10,7 @@ import Items from '../../../../assets/testimonios.json';
 export class TestimoniosItemComponent implements OnInit {
   testimonios: any[] = Items;
   currentItem: any;
+  text: string[] = [];
   constructor(
     private route: ActivatedRoute
   ) { }
@@ -19,6 +20,9 @@ export class TestimoniosItemComponent implements OnInit {
       var id = params.get('id');
       if (id) {
         this.currentItem = this.testimonios[parseInt(id)]
+        if (this.currentItem.text) {
+          this.text = this.currentItem.text.split("/n");
+        }
       }
     });
   }

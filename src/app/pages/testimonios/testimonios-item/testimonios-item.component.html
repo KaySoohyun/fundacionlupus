@@ -10,9 +10,9 @@
     <img *ngIf="currentItem.photo" class="object-cover object-center mb-10 w-5/6 rounded lg:w-1/4 md:w-1/2 sm:w-1/2" alt="hero" src="{{currentItem.photo}}">
     <video *ngIf="currentItem.video" alt="testimonial" class="mb-10 rounded-md md:w-3/5" src="{{currentItem.video}}" controls >
     </video>
-    <div class="w-full text-center lg:w-2/3">
-      <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">La historia de {{currentItem.name}}</h1>
-      <p class="mb-8 leading-relaxed">{{currentItem.text}}</p>
+    <div class="mb-8 w-full lg:w-2/3">
+      <h1 class="mb-4 text-3xl font-medium text-center text-gray-900 title-font sm:text-4xl">La historia de {{currentItem.name}}</h1>
+      <p class="leading-relaxed text-left" *ngFor="let p of text">{{p}}</p>
 
     </div>
   </div>

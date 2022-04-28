@@ -11,6 +11,11 @@ export class TestimoniosBoardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.testimonios.forEach((element) => {
+      if (element.text) {
+        element.text = element.text.replaceAll("/n", " ");
+      }
+    });
   }
 
 }
