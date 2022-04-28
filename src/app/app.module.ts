@@ -28,6 +28,8 @@ import { IntroLupusComponent } from './pages/main/intro-lupus/intro-lupus.compon
 import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
 import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
+import { ChildrenComponent } from './pages/articles/children/children.component';
+import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/t
     IntroLupusComponent,
     MaratonComponent,
     LupusComponent,
-    TestimoniosItemComponent
+    TestimoniosItemComponent,
+    ChildrenComponent,
+    NeonatalComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 import { HospitalsComponent } from './pages/articles/hospitals/hospitals.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -14,6 +15,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
 import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
+import { ChildrenComponent } from './pages/articles/children/children.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'cuidados', component: CaresComponent },
   { path: 'sintomas', component: SympthomsComponent },
   { path: 'hospitales', component: HospitalsComponent },
+  { path: 'lupus-y-niños', component: ChildrenComponent},
+  { path: 'lupus-neonatal', component: NeonatalComponent },
   { path: 'testimonios', component: TestimoniosBoardComponent },
   { path: 'testimonios/:id', component: TestimoniosItemComponent },
   { path: 'fundacion', component: FundacionComponent },
