@@ -16,6 +16,8 @@ import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
 import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
 import { ChildrenComponent } from './pages/articles/children/children.component';
+import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.component';
+import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -26,6 +28,8 @@ const routes: Routes = [
   { path: 'hospitales', component: HospitalsComponent },
   { path: 'lupus-y-niños', component: ChildrenComponent},
   { path: 'lupus-neonatal', component: NeonatalComponent },
+  { path: 'diagnostico', component: DiagnosticoComponent },
+  { path: 'tratamiento', component: TratamientoComponent },
   { path: 'testimonios', component: TestimoniosBoardComponent },
   { path: 'testimonios/:id', component: TestimoniosItemComponent },
   { path: 'fundacion', component: FundacionComponent },

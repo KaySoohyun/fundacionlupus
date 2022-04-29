@@ -21,7 +21,7 @@ export class TestimoniosItemComponent implements OnInit {
       if (id) {
         this.currentItem = this.testimonios[parseInt(id)]
         if (this.currentItem.text) {
-          this.text = this.currentItem.text.split("/n");
+          this.text = this.currentItem.text.split("@");
         }
       }
     });

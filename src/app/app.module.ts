@@ -30,6 +30,8 @@ import { LupusComponent } from './pages/articles/lupus/lupus.component';
 import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
 import { ChildrenComponent } from './pages/articles/children/children.component';
 import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
+import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.component';
+import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +61,9 @@ import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component'
     LupusComponent,
     TestimoniosItemComponent,
     ChildrenComponent,
-    NeonatalComponent
+    NeonatalComponent,
+    DiagnosticoComponent,
+    TratamientoComponent
   ],
   imports: [
     BrowserModule,
