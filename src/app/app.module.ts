@@ -32,6 +32,8 @@ import { ChildrenComponent } from './pages/articles/children/children.component'
 import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.component';
 import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
+import { NosotrosComponent } from './pages/fundacion/nosotros/nosotros.component';
+import { RedesComponent } from './pages/fundacion/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,9 @@ import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.c
     ChildrenComponent,
     NeonatalComponent,
     DiagnosticoComponent,
-    TratamientoComponent
+    TratamientoComponent,
+    NosotrosComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,
