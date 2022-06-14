@@ -1,6 +1,5 @@
 export const environment = {
   production: true,
-  api: "https://hercules.pythonanywhere.com",
   firebaseConfig: {
     apiKey: "AIzaSyCobZ33uG5it71-vXw3IybiGIlTmqvnims",
     authDomain: "fundacion-lupus.firebaseapp.com",

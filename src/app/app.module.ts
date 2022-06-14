@@ -34,6 +34,12 @@ import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.c
 import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
 import { NosotrosComponent } from './pages/fundacion/nosotros/nosotros.component';
 import { RedesComponent } from './pages/fundacion/redes/redes.component';
+import { EventsBoardComponent } from './pages/events/events-board/events-board.component';
+import { EventComponent } from './pages/events/event/event.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -67,11 +73,16 @@ import { RedesComponent } from './pages/fundacion/redes/redes.component';
     DiagnosticoComponent,
     TratamientoComponent,
     NosotrosComponent,
-    RedesComponent
+    RedesComponent,
+    EventsBoardComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

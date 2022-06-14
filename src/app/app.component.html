@@ -4,12 +4,12 @@
     [ngClass]="{'menu-mobile': menu}">
     <!-- Mobile toggle -->
     <div (click)="onOpenMenu()" class="mobile-nav-toggle">
-      <button *ngIf="!menu" class="align-middle">
+      <button *ngIf="!menu" class="align-middle" aria-label="Abre un menu con la lista de opciones para navegar por la pagina">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
-      <button *ngIf="menu">
+      <button *ngIf="menu" aria-label="Cierra el menu navegacion">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>
@@ -37,6 +37,7 @@
       <!-- <button class="mr-5 button-transparent" (click)="gate('blog')">Blog</button> -->
       <!-- TODO menu desplegable con "sintomas/cuidados/hospitales/salud publica" -->
       <button class="mr-5 button-transparent" routerLink="articulos" (click)="menu = false">Artículos</button>
+      <button class="mr-5 button-transparent" routerLink="eventos" (click)="menu = false">Eventos</button>
       <!-- <button class="mr-5 button-transparent" disabled>
         Artículos
         <svg class="-mr-1 ml-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

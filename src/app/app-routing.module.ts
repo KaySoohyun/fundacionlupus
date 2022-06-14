@@ -18,6 +18,8 @@ import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/t
 import { ChildrenComponent } from './pages/articles/children/children.component';
 import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.component';
 import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
+import { EventsBoardComponent } from './pages/events/events-board/events-board.component';
+import { EventComponent } from './pages/events/event/event.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -38,6 +40,8 @@ const routes: Routes = [
   { path: 'contacto', component: ContactComponent },
   { path: 'maraton', component: MaratonComponent },
   { path: 'lupus', component: LupusComponent },
+  { path: 'eventos', component: EventsBoardComponent },
+  { path: 'eventos/:name', component: EventComponent }
 ];
 
 @NgModule({
