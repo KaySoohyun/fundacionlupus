@@ -38,7 +38,7 @@ const routes: Routes = [
   { path: 'articulos', component: ArticlesBoardComponent },
   { path: 'salud-publica', component: PublicComponent },
   { path: 'contacto', component: ContactComponent },
-  { path: 'maraton', component: MaratonComponent },
+  // { path: 'maraton', component: MaratonComponent },
   { path: 'lupus', component: LupusComponent },
   { path: 'eventos', component: EventsBoardComponent },
   { path: 'eventos/:name', component: EventComponent }
