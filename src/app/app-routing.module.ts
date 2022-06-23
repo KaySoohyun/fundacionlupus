@@ -1,3 +1,4 @@
+import { EventsBaseComponent } from './pages/events/events-base/events-base.component';
 import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 import { HospitalsComponent } from './pages/articles/hospitals/hospitals.component';
 import { NgModule } from '@angular/core';
@@ -20,6 +21,7 @@ import { DiagnosticoComponent } from './pages/articles/diagnostico/diagnostico.c
 import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.component';
 import { EventsBoardComponent } from './pages/events/events-board/events-board.component';
 import { EventComponent } from './pages/events/event/event.component';
+import { LupusOamComponent } from './pages/articles/lupus-oam/lupus-oam.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -38,7 +40,8 @@ const routes: Routes = [
   { path: 'articulos', component: ArticlesBoardComponent },
   { path: 'salud-publica', component: PublicComponent },
   { path: 'contacto', component: ContactComponent },
-  // { path: 'maraton', component: MaratonComponent },
+  { path: 'lupus-y-oam', component: LupusOamComponent },
+  // { path: 'base', component: EventsBaseComponent },
   { path: 'lupus', component: LupusComponent },
   { path: 'eventos', component: EventsBoardComponent },
   { path: 'eventos/:name', component: EventComponent }

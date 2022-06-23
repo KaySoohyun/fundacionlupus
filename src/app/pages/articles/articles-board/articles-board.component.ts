@@ -16,6 +16,7 @@ export class ArticlesBoardComponent implements OnInit {
     { title: 'Lupus neonatal', description: 'Cómo afecta al feto y al recién nacido.', path: '/lupus-neonatal' },
     { title: 'Diagnóstico', description: 'Exámen médico y laboratorio', path: '/diagnostico' },
     { title: 'Tratamiento', description: 'Tratamientos y pronóstico', path: '/tratamiento' },
+    { title: 'Lupus y OAM', description: 'Lupus sobre el sistema osteoarticulomuscular', path: '/lupus-y-oam' },
     // { title: '', description: '', path: '' },
   ]
   constructor() { }

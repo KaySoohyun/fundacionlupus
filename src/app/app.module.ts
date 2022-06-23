@@ -40,6 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
+import { LupusOamComponent } from './pages/articles/lupus-oam/lupus-oam.component';
+import { EventsBaseComponent } from './pages/events/events-base/events-base.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +77,9 @@ import { environment } from 'src/environments/environment';
     NosotrosComponent,
     RedesComponent,
     EventsBoardComponent,
-    EventComponent
+    EventComponent,
+    LupusOamComponent,
+    EventsBaseComponent
   ],
   imports: [
     BrowserModule,
