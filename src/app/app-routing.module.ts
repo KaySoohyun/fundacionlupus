@@ -44,8 +44,7 @@ const routes: Routes = [
   // { path: 'base', component: EventsBaseComponent },
   { path: 'lupus', component: LupusComponent },
   { path: 'eventos', component: EventsBoardComponent },
-  { path: 'eventos/:name', component: EventComponent },
-  { path: 'googleb4536bea6ecfd46b', component: MaratonComponent }
+  { path: 'eventos/:name', component: EventComponent }
 ];
 
 @NgModule({
