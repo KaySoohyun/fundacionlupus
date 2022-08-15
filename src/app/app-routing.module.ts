@@ -1,4 +1,3 @@
-import { EventsBaseComponent } from './pages/events/events-base/events-base.component';
 import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 import { HospitalsComponent } from './pages/articles/hospitals/hospitals.component';
 import { NgModule } from '@angular/core';
@@ -13,7 +12,6 @@ import { TestimoniosBoardComponent } from './pages/testimonios/testimonios-board
 import { ArticlesBoardComponent } from './pages/articles/articles-board/articles-board.component';
 import { PublicComponent } from './pages/articles/public/public.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { MaratonComponent } from './pages/maraton/maraton.component';
 import { LupusComponent } from './pages/articles/lupus/lupus.component';
 import { TestimoniosItemComponent } from './pages/testimonios/testimonios-item/testimonios-item.component';
 import { ChildrenComponent } from './pages/articles/children/children.component';
@@ -22,6 +20,7 @@ import { TratamientoComponent } from './pages/articles/tratamiento/tratamiento.c
 import { EventsBoardComponent } from './pages/events/events-board/events-board.component';
 import { EventComponent } from './pages/events/event/event.component';
 import { LupusOamComponent } from './pages/articles/lupus-oam/lupus-oam.component';
+import { BaseEventComponent } from './pages/base-event/base-event.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -41,10 +40,12 @@ const routes: Routes = [
   { path: 'salud-publica', component: PublicComponent },
   { path: 'contacto', component: ContactComponent },
   { path: 'lupus-y-oam', component: LupusOamComponent },
-  // { path: 'base', component: EventsBaseComponent },
   { path: 'lupus', component: LupusComponent },
   { path: 'eventos', component: EventsBoardComponent },
-  { path: 'eventos/:name', component: EventComponent }
+  { path: 'eventos/:name', component: EventComponent },
+
+  // Testing
+  // { path: 'test-evento', component: BaseEventComponent },
 ];
 
 @NgModule({

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgendaLastEntriesComponent } from './agenda-last-entries.component';
+import { ActiveEventComponent } from './active-event.component';
 
-describe('AgendaLastEntriesComponent', () => {
-  let component: AgendaLastEntriesComponent;
-  let fixture: ComponentFixture<AgendaLastEntriesComponent>;
+describe('ActiveEventComponent', () => {
+  let component: ActiveEventComponent;
+  let fixture: ComponentFixture<ActiveEventComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AgendaLastEntriesComponent ]
+      declarations: [ ActiveEventComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AgendaLastEntriesComponent);
+    fixture = TestBed.createComponent(ActiveEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

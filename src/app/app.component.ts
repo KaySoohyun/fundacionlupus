@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fundacion-lupus';
-  menu = false;
-
-  onOpenMenu() {
-    this.menu = !this.menu;
-  }
 }

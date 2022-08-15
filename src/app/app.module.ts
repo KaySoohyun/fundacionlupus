@@ -4,12 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AgendaLastEntriesComponent } from './pages/main/agenda-last-entries/agenda-last-entries.component';
 import { BlogLastEntriesComponent } from './pages/main/blog-last-entries/blog-last-entries.component';
 import { ContactComponent } from './pages/main/contact/contact.component';
 import { FooterComponent } from './pages/main/footer/footer.component';
 import { HeaderComponent } from './pages/main/header/header.component';
-import { InfoSaludComponent } from './pages/main/info-salud/info-salud.component';
 import { MainComponent } from './pages/main/main.component';
 import { StatsComponent } from './pages/main/stats/stats.component';
 import { TeamComponent } from './pages/fundacion/team/team.component';
@@ -41,15 +39,16 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import { LupusOamComponent } from './pages/articles/lupus-oam/lupus-oam.component';
-import { EventsBaseComponent } from './pages/events/events-base/events-base.component';
+import { BaseEventComponent } from './pages/base-event/base-event.component';
+import { ActiveEventComponent } from './pages/main/active-event/active-event.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterSmComponent } from './footer-sm/footer-sm.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BlogLastEntriesComponent,
-    InfoSaludComponent,
-    AgendaLastEntriesComponent,
     StatsComponent,
     TeamComponent,
     ContactComponent,
@@ -79,7 +78,10 @@ import { EventsBaseComponent } from './pages/events/events-base/events-base.comp
     EventsBoardComponent,
     EventComponent,
     LupusOamComponent,
-    EventsBaseComponent
+    BaseEventComponent,
+    ActiveEventComponent,
+    NavbarComponent,
+    FooterSmComponent
   ],
   imports: [
     BrowserModule,
