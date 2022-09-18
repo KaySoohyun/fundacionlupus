@@ -25,11 +25,6 @@
     "photo": "assets/miembros/medina.jpeg"
   },
   {
-    "name": "Anabella Arguello",
-    "role": "Vocal suplente",
-    "photo": "assets/miembros/arguello.png"
-  },
-  {
     "name": "Jessica Gigena",
     "role": "Vocal suplente",
     "photo": "assets/miembros/gigena.jpeg"
@@ -68,5 +63,10 @@
     "name": "David Flores",
     "role": "Voluntario",
     "photo": "assets/miembros/flores.png"
+  },
+  {
+    "name": "Marcela Junco",
+    "role": "Voluntaria",
+    "photo": "assets/miembros/junco.jpeg"
   }
 ]
