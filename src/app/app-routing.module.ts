@@ -1,3 +1,4 @@
+import { ErComponent } from './pages/articles/er/er.component';
 import { NeonatalComponent } from './pages/articles/neonatal/neonatal.component';
 import { HospitalsComponent } from './pages/articles/hospitals/hospitals.component';
 import { NgModule } from '@angular/core';
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: '', component: MainComponent },
   // { path: 'blog', component: BlogBoardComponent},
   // { path: 'blog/:id', component: BlogEntryComponent },
+  { path: 'er', component: ErComponent },
   { path: 'cuidados', component: CaresComponent },
   { path: 'sintomas', component: SympthomsComponent },
   { path: 'hospitales', component: HospitalsComponent },

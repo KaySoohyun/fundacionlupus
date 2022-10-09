@@ -43,6 +43,7 @@ import { BaseEventComponent } from './pages/base-event/base-event.component';
 import { ActiveEventComponent } from './pages/main/active-event/active-event.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterSmComponent } from './footer-sm/footer-sm.component';
+import { ErComponent } from './pages/articles/er/er.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { FooterSmComponent } from './footer-sm/footer-sm.component';
     BaseEventComponent,
     ActiveEventComponent,
     NavbarComponent,
-    FooterSmComponent
+    FooterSmComponent,
+    ErComponent
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ export class ArticlesBoardComponent implements OnInit {
     { title: 'Diagnóstico', description: 'Exámen médico y laboratorio', path: '/diagnostico' },
     { title: 'Tratamiento', description: 'Tratamientos y pronóstico', path: '/tratamiento' },
     { title: 'Lupus y OAM', description: 'Lupus sobre el sistema osteoarticulomuscular', path: '/lupus-y-oam' },
+    { title: 'ER', description: 'Enfermedades reumáticas', path: '/er' },
     // { title: '', description: '', path: '' },
   ]
   constructor() { }
