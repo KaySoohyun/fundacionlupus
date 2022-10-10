@@ -45,28 +45,18 @@
     "photo": "assets/miembros/micieli.jpeg"
   },
   {
-    "name": "Carolina Ponce",
-    "role": "Voluntaria",
-    "photo": "assets/miembros/ponce.jpeg"
-  },
-  {
-    "name": "Mirta Suárez",
-    "role": "Voluntaria",
-    "photo": "assets/miembros/suarez.jpeg"
-  },
-  {
     "name": "Julieta Wiesztort",
     "role": "Voluntaria",
     "photo": "assets/miembros/wiesztort.jpg"
   },
   {
-    "name": "David Flores",
-    "role": "Voluntario",
-    "photo": "assets/miembros/flores.png"
-  },
-  {
     "name": "Marcela Junco",
     "role": "Voluntaria",
     "photo": "assets/miembros/junco.jpeg"
+  },
+  {
+    "name": "Teresa Altamirano",
+    "role": "Voluntaria",
+    "photo": "assets/miembros/altamirano.jpeg"
   }
 ]
